@@ -59,7 +59,7 @@ Pra solucionar esse problema eu executei: " sudo strip --remove-section=.note.AB
 
 - Execute "Gazebo". Se nada acontecer é pq deu certo
 
-## Inicializando Gazebo 
+## Inicializando Gazebo https://www.youtube.com/watch?v=4toU7sS0eRA&t=814s
 - Instale o Xming " https://sourceforge.net/projects/xming/ ". Ele é usado pra abrir o GUI do gazebo.
 - Depois de intalar clique na tecla Win e digite " Xlaunch " e execute 
 - Clique em Ok e Avançar sem mudar nada até o final

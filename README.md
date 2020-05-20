@@ -1,4 +1,4 @@
-# Instalar Gazebo usando WSL 
+# Instalar Gazebo no Windows usando WSL 
 Se você já tem linux não siga esse tutorial - talvez a parte final de instalação já que utiliza os mesmos passos do site do gazebo. 
 Se você estiver pensando "ah, tem um tutorial de como instalar gazebo no windows no site", como eu mesmo pensei, não cometa o mesmo erro que eu de tentar seguir essa forma.
 É muito complicado e da muito problema. A maior parte da instalação é manual e no fim nem funcionou. Mas se quiser tentar, boa sorte.

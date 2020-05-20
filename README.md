@@ -20,7 +20,7 @@ Para habilitar essa ferramenta existem duas formas:
 - Marque a caixinha escrita "Subsistema do Windows para Linux"
 - Reinicie o computador
 
-##Instalando e preparando o Linux (Ubuntu)
+## Instalando e preparando o Linux (Ubuntu)
 - Vá na microsoft store e procure por 'linux' ou 'wsl'- Particularmente, eu intalei o Ubuntu(O link que está no tutorial é 'https://aka.ms/wslstore')
 - Depois de instalado execute o Ubuntu
 - Quando aberto vai aparecer uma mensagem que diz que está instalando e que pode demorar - acredite, demora
@@ -37,7 +37,7 @@ Para habilitar essa ferramenta existem duas formas:
 
 - Digite um nome de usuário e senha
 
-##Instalando Gazebo - praticamente seguir o tutorial do seguinte link:"http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install":
+## Instalando Gazebo - praticamente seguir o tutorial do seguinte link:"http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install":
 - Primeiro verifique se há atualizações disponíveis executando "sudo apt-get update".
 - Prepare o Ubuntu para aceitar softwares vindos de packages.osrfoundation.org executando:
   " sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list' "
@@ -59,7 +59,7 @@ Pra solucionar esse problema eu executei: " sudo strip --remove-section=.note.AB
 
 - Execute "Gazebo". Se nada acontecer é pq deu certo
 
-##Inicializando Gazebo 
+## Inicializando Gazebo 
 - Instale o Xming " https://sourceforge.net/projects/xming/ ". Ele é usado pra abrir o GUI do gazebo.
 - Depois de intalar clique na tecla Win e digite " Xlaunch " e execute 
 - Clique em Ok e Avançar sem mudar nada até o final

@@ -67,4 +67,7 @@ Pra solucionar esse problema eu executei: " sudo strip --remove-section=.note.AB
 - Se tudo der certo o GUI do gazebo deve ter sido aberto
 
 ## Bugs
- - Depois da instalação o meu gazebo abriu perfeitamente. Entretanto, após tentar novamente, aparêcia uma tela preta onde deveria estar o ambiente de construção do robô. Pra resolver esse problema eu simplesmente fiz como sugerido em um issue no [github] (https://github.com/microsoft/WSL/issues/3368#issuecomment-414717437): Executei " export GAZEBO_IP=127.0.0.1 " e depois " gazebo --verbose "
+ - Depois da instalação o meu gazebo abriu perfeitamente. Entretanto, após tentar novamente, aparêcia uma tela preta onde deveria estar o ambiente de construção do robô. Pra resolver esse problema eu simplesmente fiz como sugerido em um issue no [github] (https://github.com/microsoft/WSL/issues/3368#issuecomment-414717437): Executei " export GAZEBO_IP=127.0.0.1 " e depois " gazebo --verbose ". Depois de abrir, eu fechei pra ver se funcionava e não funcionou. Apareceu o seguinte erro:
+  X Error of failed request: BadMatch (invalid parameter attributes) Major opcode of failed request: 143 (GLX) Minor opcode of failed request: 5 (X_GLXMakeCurrent) Serial number of failed request: 20 Current serial number in output stream: 20
+  Reiniciei o computador e voltou a funcionar.
+  

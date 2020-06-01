@@ -65,3 +65,6 @@ Pra solucionar esse problema eu executei: " sudo strip --remove-section=.note.AB
 - Clique em Ok e Avançar sem mudar nada até o final
 - No ubunto execute " Gazebo ", depois " echo $DISPLAY ", depois " export DISPLAY=:0 " e por fim " Gazebo "
 - Se tudo der certo o GUI do gazebo deve ter sido aberto
+
+## Bugs
+ - Depois da instalação o meu gazebo abriu perfeitamente. Entretanto, após tentar novamente, aparêcia uma tela preta onde deveria estar o ambiente de construção do robô. Pra resolver esse problema eu simplesmente fiz como sugerido em um issue no [github] (https://github.com/microsoft/WSL/issues/3368#issuecomment-414717437): Executei " export GAZEBO_IP=127.0.0.1 " e depois " gazebo --verbose "
